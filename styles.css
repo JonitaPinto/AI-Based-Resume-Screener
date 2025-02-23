@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #c4e0e5, #f2f2f2);
+}
+.container {
+    display: flex;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.left {
+    flex: 1;
+    background-image: url('ai.jpg'); /* Use the image you uploaded */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.right {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right h2 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 1px 1px 0 #444;
+}
+.right p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.forgot-password {
+    text-align: right;
+    font-size: 12px;
+    color: #3498db;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.btn:hover {
+    background: #c0392b;
+}
+.or {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #666;
+}
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.google-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+.google-btn:hover {
+    background: #f1f1f1;
+}
+.register {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.register a {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+}
